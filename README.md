@@ -1,2 +1,2 @@
 # GitTest
-test only
+test only for git
