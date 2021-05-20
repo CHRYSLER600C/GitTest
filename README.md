@@ -15,6 +15,8 @@ Step 2. Add the dependency
     	    implementation 'com.github.CHRYSLER600C:GitTest:v1.1.1'
 	}
  
+ [![](https://jitpack.io/v/CHRYSLER600C/GitTest.svg)](https://jitpack.io/#CHRYSLER600C/GitTest)
+ 
 #FAQ：
 1 错误：fatal: unable to access 'https://github.com/xxx.git/': Unknown SSL protocol error in connection to github.com:443 
   解决：git config http.sslVerify "false"
