@@ -12,7 +12,7 @@ test only for git
 Step 2. Add the dependency
 
 	dependencies {
-    		implementation 'com.github.CHRYSLER600C:GitTest:v1.1.1'
+    	    implementation 'com.github.CHRYSLER600C:GitTest:v1.1.1'
 	}
  
 #FAQ：
