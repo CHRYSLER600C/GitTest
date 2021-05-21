@@ -13,7 +13,7 @@ Step 2. Add the dependency
 
 	dependencies {
 	   implementation 'com.github.CHRYSLER600C.GitTest:mylibrary:v1.1.2'
-	   implementation 'com.github.CHRYSLER600C.GitTest:contact:v1.1.2
+	   implementation 'com.github.CHRYSLER600C.GitTest:contact:v1.1.2'
 	}
  
  [![](https://jitpack.io/v/CHRYSLER600C/GitTest.svg)](https://jitpack.io/#CHRYSLER600C/GitTest)
