@@ -1,2 +1,3 @@
+include ':mylibrary'
 include ':contact'
 include ':app'

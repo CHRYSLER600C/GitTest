@@ -60,4 +60,5 @@ dependencies {
     // AndroidUtilCode
     implementation 'com.blankj:utilcode:1.26.0'
     implementation project(':contact')
+    implementation project(':mylibrary')
 }
