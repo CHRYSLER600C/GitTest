@@ -27,6 +27,7 @@ FAQ
 
 
 Git常用命令
+
 回退代码：
 git reset --hard commit_id  
 强制提交回退后的代码：
