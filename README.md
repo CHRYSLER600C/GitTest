@@ -23,3 +23,11 @@ FAQ
 
 1 错误：fatal: unable to access 'https://github.com/xxx.git/': Unknown SSL protocol error in connection to github.com:443 
   解决：git config http.sslVerify "false"
+
+
+
+Git常用命令
+回退代码：
+git reset --hard commit_id  
+强制提交回退后的代码：
+git push origin HEAD --force
