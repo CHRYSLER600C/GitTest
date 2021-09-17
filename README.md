@@ -32,3 +32,11 @@ Git常用命令
 git reset --hard commit_id  
 强制提交回退后的代码：
 git push origin HEAD --force
+
+Git打标签
+在 Git 中列出已有的标签非常简单，只需要输入 git tag （可带上可选的 -l 选项 --list）
+在 Git 中创建附注标签：
+$ git tag -a v1.4 -m "my version 1.4"
+推送标签到共享服务器上：
+$ git push origin v1.5
+
