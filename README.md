@@ -38,6 +38,7 @@ Git打标签
 
 在 Git 中创建附注标签：
 $ git tag -a v1.4 -m "my version 1.4"
+
 推送标签到共享服务器上：
 $ git push origin v1.5
 
