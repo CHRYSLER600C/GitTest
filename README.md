@@ -42,3 +42,7 @@ $ git tag -a v1.4 -m "my version 1.4"
 推送标签到共享服务器上：
 $ git push origin v1.5
 
+重新设置地址：
+git remote set-url origin http://gc.xxxx.cn:3000/xxxx/xxxx.git
+
+
