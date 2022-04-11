@@ -34,15 +34,19 @@ git reset --hard commit_id
 git push origin HEAD --force
 
 Git打标签
-在 Git 中列出已有的标签非常简单，只需要输入 git tag （可带上可选的 -l 选项 --list）
-
-在 Git 中创建附注标签：
-$ git tag -a v1.4 -m "my version 1.4"
-
-推送标签到共享服务器上：
-$ git push origin v1.5
+命令 git tag <tagname> 用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+命令 git tag -a <tagname> -m "this is memeo" 可以指定标签信息；
+命令 git tag 可以查看所有标签。
+命令 git log --pretty=oneline --abbrev-commit 找到历史提交的commit id
+命令 git tag -d <tagname> 删除标签
+命令 git push origin :refs/tags/<tagname> 可以删除一个远程标签。
 
 重新设置地址：
 git remote set-url origin http://gc.xxxx.cn:3000/xxxx/xxxx.git
 
-
+从命令行创建一个新的仓库
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin http://xxxxxxx.git
+git push -u origin master
